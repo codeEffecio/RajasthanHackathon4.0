@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/trv"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.tourism.Traveln">
+
+
+    <RadioGroup
+        android:layout_width="100dp"
+        android:layout_height="310dp"
+        android:layout_marginLeft="230dp"
+        android:orientation="vertical"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:text="Airines"
+            android:textColor="#FCF2EB13"
+            android:textStyle="bold"
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+
+
+            android:layout_marginLeft="10dp"/>
+
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:text="Train"
+            android:textColor="#FCF2EB13"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="141dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="400dp" />
+        <RadioButton
+            android:id="@+id/rb3"
+            android:text="Bus"
+            android:textColor="#FCF2EB13"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:text="Cabs"
+            android:textColor="#FCF2EB13"
+            android:textStyle="bold"
+
+            android:layout_width="wrap_content"
+            android:layout_height="104dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="24dp"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/b1"
+            style="@android:style/Widget.Holo.Light.Button"
+
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="49dp"
+            android:layout_marginTop="370dp"
+            android:background="#F2E7C931"
+
+            android:text="Button" />
+
+    </LinearLayout>
+
+</RelativeLayout>

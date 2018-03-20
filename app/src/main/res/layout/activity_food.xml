@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/fd"
+    tools:context="com.example.lenovo.tourism.food">
+
+
+    <RadioGroup
+        android:layout_width="100dp"
+        android:layout_height="280dp"
+        android:layout_marginLeft="230dp"
+        android:orientation="vertical"
+
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toEndOf="@+id/editText2"
+            android:layout_toRightOf="@+id/editText2" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="141dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toEndOf="@+id/editText2"
+            android:layout_toRightOf="@+id/editText2"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_toEndOf="@+id/editText2"
+            android:layout_toRightOf="@+id/editText2"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="400dp" />
+
+
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TakeAway"
+        android:textColor="#FF137408"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Restaurant"
+        android:textStyle="bold"
+        android:textColor="#FFFDFDFD"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="210dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="49dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Delivery"
+        android:textStyle="bold"
+        android:textColor="#FFF5F216"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="304dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/b"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/radioGroup"
+        android:layout_marginTop="320dp"
+        android:text="Proceed"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+</RelativeLayout>
